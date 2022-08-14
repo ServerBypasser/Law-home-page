@@ -1,0 +1,76 @@
+@use "./resets" as *;
+@use "./variables" as *;
+
+.navbar-div {
+  display: flex;
+  width: 1100px;
+  align-items: center;
+  margin: 0 auto;
+  padding-top: 15px;
+}
+
+button.nav-btn {
+  color: #988934;
+  background-color: #2b2922;
+  border: 2px solid #988934;
+  padding: 10px 15px;
+  border-radius: 10px;
+}
+.header-div {
+  background-color: #2b2922;
+}
+
+.navbar-log {
+  flex: 1;
+}
+
+img.nav-logo {
+  width: 100px;
+}
+
+ul.nav-items {
+  display: flex;
+  list-style: none;
+}
+
+li.nav-links {
+  padding: 0 15px;
+  font-size: 20px;
+  color: #85837b;
+}
+li.nav-links-active,
+li.nav-links:hover,
+.hero-leftdiv h1 {
+  color: #fff;
+  font-size: 20px;
+}
+
+.nav-menusdiv {
+  margin-right: 30px;
+}
+
+.hero-div {
+  display: flex;
+  justify-content: space-around;
+  width: 1100px;
+  margin: 0 auto;
+  padding: 25px 0;
+}
+
+.hero-leftdiv h1 {
+  font-size: 60px;
+}
+
+.hero-rightdiv {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #85837b;
+}
+
+.bannering-div {
+  background-image: url("./assets/pexels-ekaterina-bolovtsova-6077326.jpg");
+  height: 100vh;
+  background-size: cover;
+}
